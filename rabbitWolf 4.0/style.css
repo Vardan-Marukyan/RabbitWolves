@@ -1,0 +1,129 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #b2a4e6;
+}
+
+#button_strat, .button_play{
+	display: inline-block;
+}
+#button_strat button{
+border: 2px solid #b2a4e6;
+font-size: 30px;
+width: 150px;
+padding: 4px;
+margin: 3px;
+border-radius: 20px;
+outline: none;
+background-color: #eea8e2;
+cursor: pointer;
+text-align: center;
+color: white;
+}
+
+#button_strat a{
+	color: #fff;
+	font-size: 30px;
+}
+
+.button_play a{
+	color: #fff;
+}
+
+.board{
+	padding: 20px;
+	width: 320px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #ffdafa;
+	border-radius: 20px;
+	justify-content: center;
+
+}
+
+.boardDiv{
+	margin-top: 20px;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.board div{
+	width: 60px;
+	height: 60px;
+	background-color:  #d5b7db;
+	display: inline-block;
+	border: 1px ridge #fff;
+
+}
+
+
+.button_play select{
+	border: 2px solid #b2a4e6;
+	font-size: 30px;
+	width: 150px;
+	padding: 4px;
+	margin: 3px;
+	border-radius: 20px;
+	outline: none;
+	background-color: #eea8e2;
+	cursor: pointer;
+	text-align: center;
+	color: white;
+}
+
+.board img{	
+	width: 60px;
+	height: 60px;
+}
+
+.all{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+#controls{
+	text-align: center;
+}
+
+.status{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	background-color: #0000004d;
+	margin-top: -20px;
+}
+
+.statusgame{
+	width: 350px;
+	height: 200px;
+	position: absolute;
+	background-color: #fff;
+	border-radius: 20px;
+	text-align: center;
+	margin-top: 170px;
+	margin-left: 790px;
+}
+
+.statusgame h2{
+	color: rgb(158, 148, 241);
+	margin-top: 30px;
+}
+
+.statusgame button {
+	border: 2px solid #b2a4e6;
+	padding: 20px;
+	font-size: 30px;
+	border-radius: 15px;
+	background-color: #eea8e2 ;
+	color: #fff;
+	cursor: pointer;
+	margin-top: 10PX;
+}
